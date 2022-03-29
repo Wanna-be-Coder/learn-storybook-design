@@ -20,8 +20,12 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
+<<<<<<< HEAD
     "chromatic": "npx chromatic --project-token=2e84ddefe14a",
     "build:core": "cross-env BABEL_ENV=production babel src -d dist"
+=======
+    "chromatic": "npx chromatic --project-token=2e84ddefe14a"
+>>>>>>> 84ff4c294f473effd80ecd1d02dce8f6e5159df1
   },
   "eslintConfig": {
     "extends": [
@@ -37,6 +41,7 @@
           "import/no-anonymous-default-export": "off"
         }
       }
+<<<<<<< HEAD
     ]
   },
   "babel": {
@@ -47,6 +52,8 @@
           "absoluteRuntime": false
         }
       ]
+=======
+>>>>>>> 84ff4c294f473effd80ecd1d02dce8f6e5159df1
     ]
   },
   "browserslist": {
@@ -62,7 +69,10 @@
     ]
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@babel/cli": "^7.17.6",
+=======
+>>>>>>> 84ff4c294f473effd80ecd1d02dce8f6e5159df1
     "@storybook/addon-actions": "^6.4.19",
     "@storybook/addon-essentials": "^6.4.19",
     "@storybook/addon-interactions": "^6.4.19",
@@ -71,6 +81,7 @@
     "@storybook/preset-create-react-app": "^3.2.0",
     "@storybook/react": "^6.4.19",
     "@storybook/testing-library": "^0.0.9",
+<<<<<<< HEAD
     "auto": "^10.36.5",
     "chromatic": "^6.5.3",
     "cross-env": "^7.0.3",
@@ -81,4 +92,9 @@
   "repository": "https://github.com/Wanna-be-Coder/learn-storybook-design.git",
   "author": "samin-sharar-val <samin@valerianfunds.com>",
   "license": "MIT"
+=======
+    "chromatic": "^6.5.3",
+    "prettier": "^2.6.1"
+  }
+>>>>>>> 84ff4c294f473effd80ecd1d02dce8f6e5159df1
 }
